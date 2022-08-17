@@ -1,0 +1,16 @@
+#bg {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    min-width: 357px;
+    min-height: 105px;
+    border-radius: 20px;
+    background: #ffffff;
+    background-blend-mode: normal;
+    box-shadow: 10px 30px 30px 3px rgba(177,188,199,0.15);
+  }
+  
+aside > main {
+    width: 357px;
+    min-height: 503px;
+}
