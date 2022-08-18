@@ -4,36 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/aside-style.css">
+    <link rel="stylesheet" href="style/layout.css">
+    <link rel="stylesheet" href="style\calender.css">
     <title>Todo</title>
 </head>
 <body>
     <div id="container">
         <aside>
-            <header>
+            <div class="header">
                 <div id="add_task">
                     <img src="img/Logo.png">
-                    <div>taskly</div>
+                    <span>taskly</span>
                 </div>
-            </header>
-            <main>
-            <div id="weekly_pinned_bar">
-                <div>Weekly weekly_pinned</div>
-                <div>view all</div>
-            </div id="weekly_pinned">
-                <div class="weekly_pinned_item">
-                    <div class="icon"></div>
-                    <div></div>
+            </div>
+            <div class="main">
+                <div id="weekly_pinned_bar" class="bar">
+                    <div>Weekly pinned</div>
+                    <span>view all</span>
                 </div>
-            </main>
-            <footer>
-                <div id="calender_bar">
-
+                <div id="weekly_pinned">
+                    <div class="weekly_pinned_item">
+                        <div class="icon"></div>
+                        <div></div>
+                    </div>
+                    <div class="weekly_pinned_item">
+                        <div class="icon"></div>
+                        <div></div>
+                    </div>
+                    <div class="weekly_pinned_item">
+                        <div class="icon"></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div id="calender_bar" class="bar">
+                    <div id="calender_date">August, 2022</div>
+                    <img src="img/back.png">
+                    <img src="img/front.png">
+                    <span>two week</span>
                 </div>
                 <div id="calender">
-
                 </div>
-            </footer>
+            </div>
         </aside>
         <main>
             <header>
@@ -44,9 +58,9 @@
             </section>
         </main>
         <aside>
-            <header>
+            <div class="header">
 
-            </header>
+            </div>
             <div id="widget"></div>
         </aside>
     </div>
