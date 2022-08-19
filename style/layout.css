@@ -1,4 +1,6 @@
-#container, #weekly_pinned_bar, #calender_bar,.add_task {display: flex;}
+body {margin:0px;}
+
+#container, #weekly_pinned_bar, #calender_bar {display: flex;}
 
 aside, main {
     display: flex;
@@ -6,15 +8,18 @@ aside, main {
 }
 
 aside {
+    width: 477px;
     height: 100vh; 
     background: #f6f7fb;
     background-blend-mode: normal;
 }
 
-aside .header{
-    height: 16.9vh;
+#add_task {
+    display: flex;
+    align-items: center;
 }
 
-aside .footer {
-    height: 28.8vh;
+.bar {
+    justify-content: center;
+    align-items: center;
 }
